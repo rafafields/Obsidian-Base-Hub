@@ -5,6 +5,7 @@ projects:
   - "[[Demo Project]]"
 areas:
   - "[[Demo Area]]"
+location: "[[Milano]]"
 ---
 ## Details
 

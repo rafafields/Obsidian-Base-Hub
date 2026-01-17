@@ -1,0 +1,4 @@
+---
+locations:
+  - "[[Milano]]"
+---

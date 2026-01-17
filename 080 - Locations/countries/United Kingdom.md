@@ -1,0 +1,4 @@
+---
+locations:
+  - "[[London]]"
+---

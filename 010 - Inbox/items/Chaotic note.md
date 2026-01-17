@@ -1,5 +1,5 @@
 ---
-proyectos:
-áreas:
+projects:
+areas:
 ---
 blah blah blah blah

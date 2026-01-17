@@ -1,6 +1,6 @@
 # 🗃️ Obsidian Base Hub
 
-![Version](https://img.shields.io/badge/version-2.0.1-blue)
+![Version](https://img.shields.io/badge/version-2.2.0-blue)
 ![Obsidian](https://img.shields.io/badge/Obsidian-native%20Bases-purple)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -32,10 +32,11 @@ Quick capture system for unstructured notes that can be processed into appropria
 ### 📊 Data Management
 - **People Database**: Document work relationships and colleagues
 - **Meetings System**: Organized note-taking and meeting coordination
+- **(New) Location Database**: Easily locate all your contacts and meetings
 - **Daily Journal**: Track daily work progress and achievements
 
 ### ⚙️ Work Management
-- **Task System**: Break down work into minimal units with global progress states
+- **Task System**: Break down work into minimal units with global progress states and priorities
 
 ### 🚀 Development Control
 - **Projects Database**: Time-bound development initiatives with beginning and end

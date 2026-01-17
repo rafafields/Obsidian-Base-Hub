@@ -4,7 +4,7 @@ views:
     filters:
       and:
         - file.inFolder("070 - People/items")
-        - file.hasLink(this.file.path)
+        - projects.contains(link("Demo Project"))
     order:
       - file.name
       - rol
@@ -15,7 +15,7 @@ views:
     filters:
       and:
         - file.inFolder("040 - Tasks/items")
-        - file.hasLink(this.file.path)
+        - projects.contains(link("Demo Project"))
     order:
       - status
       - file.name
@@ -26,7 +26,7 @@ views:
     filters:
       and:
         - file.inFolder("060 - Meetings/items")
-        - file.hasLink(this.file.path)
+        - projects.contains(link("Demo Project"))
     order:
       - file.name
       - proyectos

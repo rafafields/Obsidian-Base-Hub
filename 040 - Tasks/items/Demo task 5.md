@@ -4,6 +4,7 @@ areas:
 projects:
   - "[[Demo Project]]"
 status: "[[11 - Paused 🟡]]"
+priority: "[[05🏖Low]]"
 ---
 ## DOD
 

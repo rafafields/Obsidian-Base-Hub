@@ -1,25 +1,47 @@
+formulas:
+  Count: file.backlinks.length
+properties:
+  file.backlinks:
+    displayName: Task list
+  formula.Count:
+    displayName: Tasks
 views:
   - type: cards
     name: All
     filters:
       and:
         - file.inFolder("040 - Tasks/items")
+    groupBy:
+      property: priority
+      direction: DESC
     order:
       - file.name
+      - priority
       - status
       - proyectos
       - áreas
     sort:
       - property: status
         direction: ASC
+  - type: cards
+    name: Status
+    filters:
+      and:
+        - file.inFolder("040 - Tasks/status")
+    order:
+      - file.name
+      - formula.Count
+      - file.backlinks
+    cardSize: 200
   - type: table
     name: ⚪ Undefined
     filters:
       and:
         - file.inFolder("040 - Tasks/items")
-        - file.hasLink("040 - Tasks/status/00 - Undefined ⚪")
+        - status == link("00 - Undefined ⚪")
     order:
       - file.name
+      - priority
       - status
       - proyectos
       - áreas
@@ -28,14 +50,17 @@ views:
         direction: ASC
       - property: proyectos
         direction: ASC
+    columnSize:
+      file.name: 128
   - type: table
     name: 🔵 Defined
     filters:
       and:
         - file.inFolder("040 - Tasks/items")
-        - file.hasLink("040 - Tasks/status/05 - Defined 🔵")
+        - status == link("05 - Defined 🔵")
     order:
       - file.name
+      - priority
       - status
       - proyectos
       - áreas
@@ -49,9 +74,10 @@ views:
     filters:
       and:
         - file.inFolder("040 - Tasks/items")
-        - file.hasLink("040 - Tasks/status/06 - Blocked🔴")
+        - status == link("06 - Blocked🔴")
     order:
       - file.name
+      - priority
       - status
       - proyectos
       - áreas
@@ -65,9 +91,10 @@ views:
     filters:
       and:
         - file.inFolder("040 - Tasks/items")
-        - file.hasLink("040 - Tasks/status/10 - In progress 🟣")
+        - status == link("10 - In progress 🟣")
     order:
       - file.name
+      - priority
       - status
       - proyectos
       - áreas
@@ -81,9 +108,10 @@ views:
     filters:
       and:
         - file.inFolder("040 - Tasks/items")
-        - file.hasLink("040 - Tasks/status/11 - Paused 🟡")
+        - status == link("11 - Paused 🟡")
     order:
       - file.name
+      - priority
       - status
       - proyectos
       - áreas
@@ -93,13 +121,14 @@ views:
       - property: proyectos
         direction: ASC
   - type: table
-    name: 🟢 Delivered
+    name: 🟢 Done
     filters:
       and:
         - file.inFolder("040 - Tasks/items")
-        - file.hasLink("040 - Tasks/status/15 - Done 🟢")
+        - status == link("15 - Done 🟢")
     order:
       - file.name
+      - priority
       - status
       - proyectos
       - áreas
@@ -114,22 +143,95 @@ views:
     filters:
       and:
         - file.inFolder("040 - Tasks/items")
-        - '!file.hasLink("040 - Tasks/status/15 - Done 🟢")'
+        - status != link("15 - Done 🟢")
     order:
       - file.name
       - status
-      - proyectos
-      - áreas
+      - projects
+      - areas
     sort:
       - property: status
         direction: ASC
     columnSize:
       file.name: 271
   - type: cards
-    name: Status
+    name: Priorities
     filters:
       and:
-        - file.inFolder("040 - Tasks/status")
+        - file.inFolder("040 - Tasks/priority")
     order:
       - file.name
-    cardSize: 200
+      - formula.Count
+      - file.backlinks
+    sort:
+      - property: file.name
+        direction: DESC
+    cardSize: 180
+  - type: table
+    name: 🔥Critical
+    filters:
+      and:
+        - file.inFolder("040 - Tasks/items")
+        - priority == link("20🔥Critical")
+    order:
+      - file.name
+      - status
+      - proyectos
+      - áreas
+      - jornadas
+    sort:
+      - property: áreas
+        direction: ASC
+      - property: proyectos
+        direction: ASC
+  - type: table
+    name: ⚡️High
+    filters:
+      and:
+        - file.inFolder("040 - Tasks/items")
+        - priority == link("15⚡️High")
+    order:
+      - file.name
+      - status
+      - proyectos
+      - áreas
+      - jornadas
+    sort:
+      - property: áreas
+        direction: ASC
+      - property: proyectos
+        direction: ASC
+  - type: table
+    name: 🙂Default
+    filters:
+      and:
+        - file.inFolder("040 - Tasks/items")
+        - priority == link("10🙂Default")
+    order:
+      - file.name
+      - status
+      - proyectos
+      - áreas
+      - jornadas
+    sort:
+      - property: áreas
+        direction: ASC
+      - property: proyectos
+        direction: ASC
+  - type: table
+    name: 🏖Low
+    filters:
+      and:
+        - file.inFolder("040 - Tasks/items")
+        - priority == link("05🏖Low")
+    order:
+      - file.name
+      - status
+      - proyectos
+      - áreas
+      - jornadas
+    sort:
+      - property: áreas
+        direction: ASC
+      - property: proyectos
+        direction: ASC

@@ -1,0 +1,43 @@
+views:
+  - type: table
+    name: Locations
+    filters:
+      and:
+        - file.inFolder("080 - Locations/items")
+    order:
+      - file.name
+      - country
+    columnSize:
+      file.name: 133
+  - type: cards
+    name: Countries
+    filters:
+      and:
+        - file.inFolder("080 - Locations/countries")
+    order:
+      - file.name
+      - locations
+  - type: table
+    name: Linked people
+    filters:
+      and:
+        - file.inFolder("070 - People")
+        - file.hasLink(this.file.path)
+    order:
+      - file.name
+      - email
+      - role
+      - projects
+  - type: table
+    name: Linked meetings
+    filters:
+      and:
+        - file.inFolder("060 - Meetings/items")
+        - file.hasLink(this.file.path)
+    order:
+      - file.name
+      - scheduled
+      - guests
+      - areas
+      - projects
+      - minutes

@@ -8,6 +8,7 @@ areas:
 projects:
   - "[[Demo Project]]"
 scheduled: 2025-10-08
+location: "[[Malaga]]"
 ---
 ## Objective
 

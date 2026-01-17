@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "a79f2c5b4fc7e8e1",
+        "id": "df6420653c3b594c",
         "type": "tabs",
         "children": [
           {
-            "id": "df962f97500ad1a4",
+            "id": "cd3d476b642b47db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readme.md",
+                "file": "Changelog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Readme"
-            }
-          },
-          {
-            "id": "905da8303bf429b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "How it works (with screenshots!).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "How it works (with screenshots!)"
+              "title": "Changelog"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -175,57 +160,58 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
     }
   },
-  "active": "905da8303bf429b5",
+  "active": "cd3d476b642b47db",
   "lastOpenFiles": [
     "Readme.md",
-    "How it works (with screenshots!).md",
-    "998 - Attachments/7Jaayb3wl7.png",
-    "060 - Meetings/items/Lunch with John.md",
-    "998 - Attachments/ZjnQElj9cS.png",
-    "998 - Attachments/Hujyek3req.png",
-    "998 - Attachments/ISciq6We93.png",
-    "050 - Daily/items/2025-10-13.md",
-    "050 - Daily/ℹ️ Daily.md",
+    "Changelog.md",
+    "080 - Locations/items/Malaga.md",
+    "080 - Locations/DDBB Locations.base",
+    "060 - Meetings/ℹ️ Meetings.md",
+    "999 - Templates/New Location.md",
+    "080 - Locations/ℹ️ Locations.md",
     "060 - Meetings/items/Demo Meeting.md",
-    "040 - Tasks/items/Untitled.md",
-    "040 - Tasks/items/Untitled 1.md",
-    "999 - Templates/Dialy Note.md",
+    "060 - Meetings/items/Lunch with John.md",
+    "How it works (with screenshots!).md",
+    "040 - Tasks/ℹ️ Tasks.md",
     "040 - Tasks/DDBB Tasks.base",
-    "020 - Projects/999 - Demo Project/Demo Project.md",
-    "997 - Use cases/Set up a project or area.md",
-    "998 - Attachments/Pasted image 20251013172340.png",
-    "998 - Attachments/Pasted image 20251013171809.png",
-    "030 - Areas/999 - Demo Area/Demo Area.md",
+    "040 - Tasks/priority/20🔥Critical.md",
+    "040 - Tasks/priority/05🏖Low.md",
+    "040 - Tasks/priority/10🙂Default.md",
+    "040 - Tasks/priority/15⚡️High.md",
+    "040 - Tasks/status/00 - Undefined ⚪.md",
+    "040 - Tasks/status/05 - Defined 🔵.md",
+    "040 - Tasks/status/06 - Blocked🔴.md",
+    "040 - Tasks/status/10 - In progress 🟣.md",
+    "040 - Tasks/status/11 - Paused 🟡.md",
+    "040 - Tasks/status/15 - Done 🟢.md",
     "040 - Tasks/items/Demo task 6.md",
     "040 - Tasks/items/Demo task 5.md",
     "040 - Tasks/items/Demo task 4.md",
     "040 - Tasks/items/Demo task 3.md",
     "040 - Tasks/items/Demo task 2.md",
     "040 - Tasks/items/Demo task 1.md",
-    "070 - People/items/John Doe.md",
-    "997 - Use cases",
-    "998 - Attachments",
-    "070 - People/items/Stakeholder 1.md",
-    "ld.md",
-    "010 - Inbox/ℹ️ Inbox.md",
+    "040 - Tasks/priority",
+    "070 - People/DDBB People.base",
+    "060 - Meetings/DDBB Meetings.base",
+    "080 - Locations/countries",
+    "080 - Locations/items",
+    "080 - Locations",
     "010 - Inbox/DDBB - Inbox.base",
-    "020 - Projects/999 - Demo Project/DDBB Demo Project.base",
-    "030 - Areas/999 - Demo Area/DDBB Demo Area.base",
-    "030 - Areas/ℹ️ Areas.md",
-    "070 - People/ℹ️ People.md",
-    "040 - Tasks/ℹ️ Tasks.md",
-    "050 - Daily/DDBB Dailty.base",
-    "040 - Tasks/status",
-    "040 - Tasks/items",
-    "040 - Tasks"
+    "998 - Attachments/ZjnQElj9cS.png",
+    "998 - Attachments/ISciq6We93.png",
+    "998 - Attachments/Hujyek3req.png",
+    "998 - Attachments/7Jaayb3wl7.png",
+    "050 - Daily/DDBB Daily.base",
+    "998 - Attachments/Pasted image 20251013172340.png",
+    "998 - Attachments/Pasted image 20251013171809.png"
   ]
 }

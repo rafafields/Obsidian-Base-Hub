@@ -4,4 +4,4 @@ The purpose of this folder is to be the daily notes compartment, so that they ca
 
 > You can create daily notes quickly with the 📄 button on the left side menu. When you create today's note, the button will become a shortcut to the note.
 
-![[DDBB Dailty.base#Table]]
+![[DDBB Daily.base#Table]]

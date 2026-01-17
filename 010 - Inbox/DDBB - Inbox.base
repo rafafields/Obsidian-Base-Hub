@@ -6,9 +6,8 @@ views:
         - file.inFolder("010 - Inbox/items")
     order:
       - file.name
-      - procesado
-      - proyectos
-      - áreas
+      - areas
+      - projects
     sort:
       - property: procesado
         direction: ASC

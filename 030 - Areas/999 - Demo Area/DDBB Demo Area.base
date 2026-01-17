@@ -4,7 +4,7 @@ views:
     filters:
       and:
         - file.inFolder("070 - People/items")
-        - file.hasLink(this.file.path)
+        - areas.contains(link("Demo Area"))
     order:
       - file.name
       - rol
@@ -14,7 +14,7 @@ views:
     filters:
       and:
         - file.inFolder("040 - Tasks/items")
-        - file.hasLink(this.file.path)
+        - areas.contains(link("Demo Area"))
     order:
       - status
       - file.name
@@ -28,7 +28,7 @@ views:
     filters:
       and:
         - file.inFolder("060 - Meetings/items")
-        - file.hasLink(this.file.path)
+        - areas.contains(link("Demo Area"))
     order:
       - file.name
       - proyectos

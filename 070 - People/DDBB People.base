@@ -10,5 +10,6 @@ views:
       - projects
       - areas
       - email
+      - location
     columnSize:
       note.rol: 131

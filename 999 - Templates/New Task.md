@@ -2,6 +2,7 @@
 areas:
 projects:
 status: "[[00 - Undefined ⚪]]"
+priority: "[[10🙂Default]]"
 ---
 ## DOD
 

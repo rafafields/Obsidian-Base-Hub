@@ -4,6 +4,7 @@ areas:
 projects:
   - "[[Demo Project]]"
 status: "[[06 - Blocked🔴]]"
+priority: "[[10🙂Default]]"
 ---
 ## DOD
 
