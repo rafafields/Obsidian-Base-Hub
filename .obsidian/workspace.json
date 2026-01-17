@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de archivos"
+              "title": "Files"
             }
           },
           {
@@ -160,24 +160,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
-      "canvas:Crear nuevo lienzo": false,
-      "daily-notes:Abrir la nota de hoy": false,
-      "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
   "active": "cd3d476b642b47db",
   "lastOpenFiles": [
-    "Readme.md",
-    "Changelog.md",
-    "080 - Locations/items/Malaga.md",
+    "080 - Locations/ℹ️ Locations.md",
+    "080 - Locations/countries/Italy.md",
+    "070 - People/ℹ️ People.md",
     "080 - Locations/DDBB Locations.base",
+    "Changelog.md",
+    "Readme.md",
+    "080 - Locations/items/Malaga.md",
     "060 - Meetings/ℹ️ Meetings.md",
     "999 - Templates/New Location.md",
-    "080 - Locations/ℹ️ Locations.md",
     "060 - Meetings/items/Demo Meeting.md",
     "060 - Meetings/items/Lunch with John.md",
     "How it works (with screenshots!).md",
@@ -197,8 +199,6 @@
     "040 - Tasks/items/Demo task 5.md",
     "040 - Tasks/items/Demo task 4.md",
     "040 - Tasks/items/Demo task 3.md",
-    "040 - Tasks/items/Demo task 2.md",
-    "040 - Tasks/items/Demo task 1.md",
     "040 - Tasks/priority",
     "070 - People/DDBB People.base",
     "060 - Meetings/DDBB Meetings.base",
